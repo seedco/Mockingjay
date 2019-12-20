@@ -10,6 +10,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.osx.deployment_target = '10.9'
   spec.requires_arc = true
+  spec.swift_versions = ['5.0']
 
   spec.subspec 'Core' do |core_spec|
     core_spec.dependency 'URITemplate', '~> 2.0'
